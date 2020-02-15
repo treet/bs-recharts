@@ -62,6 +62,7 @@ external make:
     ~points: array(Js.t({..}))=?,
     ~stroke: string=?,
     ~strokeWidth: int=?,
+    ~strokeDasharray: string=?,
     ~unit: string=?,
     ~xAxisId: string=?,
     ~yAxisId: string=?
@@ -100,6 +101,7 @@ module Jsx2 = {
         ~points=?,
         ~stroke=?,
         ~strokeWidth=?,
+        ~strokeDasharray=?,
         ~unit=?,
         ~xAxisId=?,
         ~yAxisId=?,
@@ -134,6 +136,7 @@ module Jsx2 = {
         ~points?,
         ~stroke?,
         ~strokeWidth?,
+        ~strokeDasharray?,
         ~unit?,
         ~xAxisId?,
         ~yAxisId?,
